@@ -1,27 +1,35 @@
-Soundboard
-A native iOS soundboard app built with Swift, featuring a curated collection of MP3 audio clips sourced from the web.
+# Soundboard
 
-Overview
-Soundboard lets you trigger audio clips instantly with a tap. Built as an early iOS project, it served as a hands-on introduction to Swift, UI layout, and audio playback on mobile.
+![language](https://img.shields.io/badge/language-Swift-F05138) ![platform](https://img.shields.io/badge/platform-iOS-0C6CDB) ![audio](https://img.shields.io/badge/audio-AVFoundation-1D9E75) ![status](https://img.shields.io/badge/status-complete-3B6D11)
 
-Features
+A native iOS soundboard app built with Swift. Tap a button, hear a sound — simple as that. One of my first iOS projects, built to get hands-on with Swift, Xcode, and mobile audio playback.
 
-One-tap audio playback for each sound
-Collection of MP3 clips sourced and curated from the internet
-Clean, grid-based button layout
-Native iOS experience built entirely in Swift
+## Features
 
+- One-tap audio playback for each clip
+- Grid-based button layout for easy browsing
+- MP3 clips sourced and bundled from the internet
+- Fully native — no third-party dependencies
 
-Tech Stack
+## Tech stack
 
-Language: Swift
-Framework: UIKit
-Audio: AVFoundation (AVAudioPlayer)
-Assets: MP3 files sourced from the web
+| | |
+|---|---|
+| Language | Swift |
+| UI framework | UIKit |
+| Audio | AVFoundation |
+| Assets | MP3 (web-sourced) |
 
+## How it works
 
-How It Works
-Each button on the soundboard is mapped to a local MP3 file bundled with the app. Tapping a button triggers AVAudioPlayer to load and play the corresponding audio clip instantly.
+Each button maps to a local MP3 file bundled in the app. Tapping a button triggers `AVAudioPlayer` to load and play the clip. Sounds were sourced from publicly available content on the internet and added directly to the Xcode project bundle.
 
-Note
-This was one of my first coding projects — built to learn Swift fundamentals and get comfortable with Xcode, UI components, and media playback. Audio clips were sourced from publicly available content on the internet.
+## Getting started
+
+- Clone the repo
+- Open `Soundboard.xcodeproj` in Xcode
+- Build and run on a simulator or physical iOS device
+
+## Notes
+
+> This was built early in my coding journey as a way to learn Swift fundamentals — UI layout, event handling, and media playback. Audio clips were sourced from publicly available content on the internet for personal/learning use.
